@@ -1,0 +1,149 @@
+/* Reset default margin and padding for body and html, and set font */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header top section */
+.header-top {
+    background-color: #2C3E50; /* Solid color for the header */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding for spacing */
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space out elements */
+    align-items: center; /* Align items vertically center */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    background-color: #34495E; /* Background color for navigation */
+    text-align: center; /* Center-align text */
+}
+
+nav li {
+    display: inline; /* Display list items inline */
+}
+
+nav a {
+    color: white; /* Link color */
+    padding: 15px 20px; /* Padding for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Hero section */
+.hero {
+    text-align: center; /* Center-align text */
+    padding: 50px; /* Padding for spacing */
+    color: white; /* Text color */
+    background: url('HeaderBackground.jpeg') no-repeat center center / cover; /* Background image */
+    position: relative; /* Positioning for layout */
+    padding-top: 150px; /* Extra padding for heading */
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Arrange children in a column */
+    align-items: center; /* Center-align items horizontally */
+    justify-content: center; /* Center-align items vertically */
+    min-height: 400px; /* Minimum height for the hero section */
+}
+
+/* Heading styles */
+.hero h1 {
+    font-size: 2.5em; /* Font size */
+    margin: 0; /* Remove margin */
+    background: linear-gradient(to right, lightyellow, cyan); /* Gradient background for text */
+    padding: 10px; /* Padding around the text */
+    border-radius: 5px; /* Optional: Rounded corners */
+    z-index: 1; /* Ensure heading is above other content */
+}
+
+/* Text below heading */
+.hero p {
+    font-size: 1.2em; /* Font size */
+    color: black; /* Changed text color to black */
+    margin-top: 20px; /* Space between heading and text */
+    padding: 5px; /* Padding around the text */
+    z-index: 1; /* Ensure text is above background */
+    display: inline-block; /* Ensure the text is wrapped nicely */
+    max-width: 80%; /* Ensure it doesn't stretch too wide */
+    text-align: center; /* Center-align text */
+}
+
+/* Buttons in hero section */
+.hero-buttons {
+    margin-top: 20px; /* Space between text and buttons */
+}
+
+.hero-buttons button {
+    background-color: #3498DB; /* Button background color */
+    border: none; /* Remove border */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding for buttons */
+    margin: 5px; /* Space between buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Quick info section */
+.quick-info {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-around; /* Space out info blocks */
+    padding: 20px; /* Padding for spacing */
+    background-color: #ECF0F1; /* Background color */
+}
+
+.info-block {
+    width: 30%; /* Width for each block */
+    text-align: center; /* Center-align text */
+}
+
+/* About us section */
+.about-us {
+    display: flex; /* Flexbox for layout */
+    align-items: flex-start; /* Align items at the top */
+    padding: 50px 20px; /* Padding for spacing */
+    background-color: #BDC3C7; /* Background color */
+    gap: 20px; /* Space between the image and text */
+}
+
+.about-us img {
+    width: 400px; /* Image width */
+    border-radius: 10px; /* Optional: Curved corners for the image */
+}
+
+/* About us text box */
+.about-us div {
+    border: 2px solid black; /* Black border */
+    border-radius: 10px; /* Curved corners */
+    padding: 20px; /* Padding inside the box */
+    background-color: white; /* Background color for the box */
+    max-width: 600px; /* Limit the width of the box */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow for depth */
+}
+
+/* Services section */
+.services {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-around; /* Space out service items */
+    padding: 20px; /* Padding for spacing */
+}
+
+.service img {
+    width: 250px; /* Image width */
+}
+
+/* Footer styles */
+footer {
+    background-color: #2C3E50; /* Background color */
+    color: white; /* Text color */
+    text-align: center; /* Center-align text */
+    padding: 10px 0; /* Padding for spacing */
+}
+
+footer a img {
+    width: 50px; /* Icon width */
+    height: 50px; /* Icon height */
+    margin: 0 5px; /* Space between icons */
+    border-radius: 50%; /* Curved corners for icons */
+}
